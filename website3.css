@@ -8,6 +8,14 @@
 
 button {
   border: 0px;
+  font-size: 3vh;
+  font-family: "Arial", fantasy;
+  font-weight: bold;
+}
+
+li {
+  font-size: 2.5vh;
+  font-family: "Arial", fantansy;
 }
 
 button:hover {
@@ -16,6 +24,12 @@ button:hover {
 
 h1 {
   font-size: 20vh;
+  text-align: left;
+  font-family: "Monaco", fantasy;
+}
+
+h2 {
+  font-size: 15vh;
   text-align: left;
   font-family: "Monaco", fantasy;
 }
@@ -32,13 +46,17 @@ p {
 }
 
 .dropdown-item:hover {
-  background-color: #9CAF88;
+  background-color: #919876;
   color: white;
 }
 
 .dropdown-menu {
   border: 0px;
   padding: 0px;
+}
+
+.dropdown-item {
+  color: #858A70;
 }
 
 .bg-image {
@@ -50,7 +68,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 
 @keyframes transitionIn {
@@ -66,8 +83,8 @@ p {
 }
 
 @keyframes transitionIn2 {
-  0% {opacity: 0; transform: translateY(40px)}
-  50% {opacity: 0; transform: translateY(40px)}
+  0% {opacity: 0; transform: translateY(50px)}
+  50% {opacity: 0; transform: translateY(50px)}
   100% {opactiy: 0; transform: translateY(0px)}
 }
 
@@ -79,14 +96,36 @@ p {
 
 
 .animate {
-  --dist: var(--x);
   animation: transitionIn 1s;
 }
 
 .animate2 {
-  animation: transitionIn2 2s;
+  animation: transitionIn2 1.5s;
 }
 
 .animate3 {
-  animation: transitionIn3 3s;
+  animation: transitionIn3 2s;
+}
+
+.middle {
+  --x: 20px;
+  --blur: 4px;
+}
+
+.back {
+  --x: 10px;
+  --blur: 8px;
+}
+
+.front {
+  --x: 45px;
+  --blur: 1.5px
+}
+
+.down {
+  --dist: calc(var(--x) * -1)
+}
+
+.up {
+  --dist: var(--x);
 }
