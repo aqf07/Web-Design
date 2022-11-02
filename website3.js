@@ -2,15 +2,17 @@ document.addEventListener("scroll", check);
 
 
 
-function show(id) {
-  document.getElementById(id).classList.remove("hide");
-  document.getElementById(id).style.display = 'block';
+function show(e) {
+  e.classList.remove("hide");
+  e.style.opacity = getComputedStyle(e).getPropertyValue('--opac');
+  e.classList.add("animate")
 }
 
 function check() {
   var hideList = document.getElementsByClassName('hide');
+  console.log("Window"  + window.scrollY);
   for (e of hideList) {
-    console.log("Window"  + window.scrollY)
-    console.log(e.getBoundingClientRect().top - document.body.getBoundingClientRect().top);
+    if (window.scrollY >= e.getBoundingClientRect().top)
+      show(e);
   }
 }
