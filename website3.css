@@ -18,7 +18,24 @@ li {
   font-family: "Arial", fantansy;
 }
 
-button:hover {
+.text-button {
+  color: white;
+  transition: 0.2s;
+}
+
+.text-button:hover {
+  color: #ECF0DC;
+}
+
+.text-button:focus {
+  color: #ECF0DC;
+}
+
+.button-dark {
+  transition: 0.2s;
+}
+
+.button-dark:hover {
   background-color: #919876;
 }
 
