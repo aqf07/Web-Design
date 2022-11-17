@@ -43,21 +43,18 @@ h1 {
   font-size: 19vh;
   text-align: left;
   font-family: "Monaco", fantasy;
-  padding-left: 5vh;
 }
 
 h2 {
   font-size: 15vh;
   text-align: left;
   font-family: "Monaco", fantasy;
-  padding-left: 5vh;
 }
 
 h4 {
   font-size: 5vh;
   text-align: left;
   font-family: "Arial", fantasy;
-  padding-left: 7vh;
 }
 
 p {
@@ -163,4 +160,3 @@ p {
 .hide {
   opacity: 0;
 }
-
