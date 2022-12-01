@@ -14,85 +14,31 @@
 <body>
   <nav class="navbar navbar-expand-sm bg-sage sticky-top" id="nav">
   <div class="container-fluid">
-    <img class="navbar-brand rounded-circle" src="https://media.istockphoto.com/vectors/trendy-mid-century-art-for-boho-home-decor-posters-design-invitations-vector-id1282360398?k=20&m=1282360398&s=612x612&w=0&h=MbolQBOnXdTe6-e0fXliDRSggpHqEOCXt1bHGWCs0zo=" width=40vh></img>
+    <img class="navbar-brand rounded-circle" src="https://media.istockphoto.com/vectors/trendy-mid-century-art-for-boho-home-decor-posters-design-invitations-vector-id1282360398?k=20&m=1282360398&s=612x612&w=0&h=MbolQBOnXdTe6-e0fXliDRSggpHqEOCXt1bHGWCs0zo=" width=30vh></img>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link text-light" href="index.html">Home</a>
+          <button class='text-button bg-sage nav-link' onclick='scroll_to("intro")'>Introduction</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Link</a>
+          <button class="text-button bg-sage nav-link" onclick='scroll_to("about")'>About Us</button>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Link</a>
+          <button class="text-button bg-sage nav-link" onclick='scroll_to("plans")'>Plans</button>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#">Link</a>
-        </li>
-        <li class='nav-item dropdown'>
-          <a class='nav-link dropdown-toggle text-light' href='#' role='button' data-bs-toggle='dropdown'> Dropdown </a>
-          <ul class='dropdown-menu'>
-            <li> <a class='dropdown-item' href='#'> Link</a> </li>
-            <li> <a class='dropdown-item' href='#'> Link</a> </li>
-            <li> <a class='dropdown-item' href='#'> Link</a> </li>
-          </ul>
       </ul>
     </div>
   </div>
   </nav>
 
-  <div class='container-fluid bg-sage p-5' style='height:200vh'>
-    <div class="row">
-      <div class="col-8">
-        <h1 class='text-light text animate' style='padding-left:5vh;'> Title </h1>
-        <h4 class='text-light text animate' style='padding-left:7vh;'> Subtitle </p>
-      </div>
-      <div class='col-4'>
-        <div class="bg-image back down animate" style='--link: url("https://www.nawpic.com/media/2020/sage-green-nawpic-8.jpg");'></div>
-      </div>
-    <div class='container-fluid'>
-      <div class="row">
-        <div class='col-6' style='padding-left:9vh;'>
-          <p class='text-light animate2'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-          <a href="file:///Users/ethansun/Desktop/app-cs/class-websites/WD-AlexWu/learn-more.html" class="btn bg-charcoal p-3 text-light animate3"> Learn More </a>
-        </div>
-        <div class='col-3' style='padding-top: 5vh; padding-left:5vh;'>
-          <div class='bg-image front up animate' style='width: 50vh; --link: url("https://restoredecorandmore.com/wp-content/uploads/2022/07/sage-green-aesthetic-wallpaper-2-576x1024.jpg");'></div>
-        </div>
-      <div class='row' id='hi'>
-        <div class='col-2'>
-          <div style='height:50vh;'></div>
-        </div>
-        <div class='col-3' style='padding-top: 5vh'>
-          <div class='bg-image front down animate' style='opacity: 0.4; --o: 0.4;width:30vh; height: 20vh; --link: url("https://i.pinimg.com/736x/6e/54/78/6e5478594f7851cfa7961ea64a6014dc.jpg");'></div>
-        </div>
-        <div class='col-5' style='padding-top:15vh;'>
-          <div class='bg-image back up animate' style='opacity: 0.9; --o: 0.9; height: 20vh; width: 50vh;--link: url("https://i.pinimg.com/736x/2e/a5/69/2ea5694a6f61fc889b67e904ff545f59.jpg");'></div>
-        </div>
-        <div class='col-2'>
-          <div class='bg-image middle down animate' style='--link: url("https://w0.peakpx.com/wallpaper/277/779/HD-wallpaper-sage-green-leaves-trees-branches-sage-green-thumbnail.jpg");'></div>
-        </div>
-      </div>
-      <div class='row hide text animate' id='hidden1'>
-        <h2 class='text-light' style='padding-left: 5vh'> Topic </h2>
-      </div>
-      <div class='row hide text animate' id='hidden2'>
-        <div class='col-6' style='padding-left: 6.5vh;'>
-          <p class='text-light'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus ante nunc, nec egestas neque ornare et. Nullam tristique porttitor.</p>
-        </div>
-
-      </div>
-      </div>
-    </div>
-
   <div class='container-fluid bg-sage p-5' style='height:100%; width:100%;'>
-    <div class="row">
+    <div class="row" id='intro'>
       <div class="col-12 col-sm-10 col-md-8">
-        <h1 class='text-light text animate' style='padding-left:5vh;'> Title </h1>
-        <h4 class='text-light text animate' style='padding-left:7vh;'> Subtitle </p>
+        <h1 class='text-light text animate' style='padding-left:5vh;'> Accrescent </h1>
+        <h4 class='text-light text animate' style='padding-left:5vh;'> Plants Shop </p>
       </div>
       <div class='d-none d-md-block col-md-4'>
         <div class="bg-image back down animate" style='--link: url("https://www.nawpic.com/media/2020/sage-green-nawpic-8.jpg");'></div>
@@ -100,9 +46,9 @@
     </div>
     <div class='container-fluid'>
       <div class="row">
-        <div class='col-12 col-sm-10 col-md-6' style='padding-left:9vh;'>
-          <p class='text-light animate2'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-          <button class='bg-charcoal p-3 text-light animate3'> Learn More </button>
+        <div class='col-12 col-sm-10 col-md-6' style='padding-left:5vh;'>
+          <button class='button-dark bg-charcoal p-3 text-light animate3' onclick="location.href='learn-more.html';"> Learn More </button>
+          <!-- An image fading in/out would be cool once you fell vicim to the site's call to action (see the simple script added to directory "addImage.js") -->
         </div>
         <div class='d-none d-md-block col-md-6' style='padding-top: 5vh; padding-left:5vh;'>
           <div class='bg-image front up animate' style='height: 35vh; width: 20vw; --link: url("https://restoredecorandmore.com/wp-content/uploads/2022/07/sage-green-aesthetic-wallpaper-2-576x1024.jpg");'></div>
@@ -125,11 +71,11 @@
       <div class='row'>
         <div class='col-md-6'>
           <div class='row hide text'>
-            <h2 class='text-light' style='padding-left: 5vh'> Topic </h2>
+            <h2 class='text-light' style='padding-left: 5vh' id='about'> About Us </h2>
           </div>
           <div class='row hide text' >
             <div class='col' style='padding-left: 6.5vh;'>
-              <p class='text-light'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus ante nunc, nec egestas neque ornare et. Nullam tristique porttitor.</p>
+              <p class='text-light'> Accrescent is an organization dedicated to the fight against global warming. We grow and sell the best plants on the market. From bouquets to indoor decor, we offer all the green our world increasingly lack.</p>
             </div>
           </div>
         </div>
@@ -137,7 +83,45 @@
           <div class='hide bg-image front up' style='height:35vh; width: 15vw; --link: url("https://wallpaperaccess.com/full/6321685.jpg");'></div>
         </div>
       </div>
-      <div class='container-fluid' style='height:20vh;'></div>
+      <div class='container-fluid' style='height:50vh;'></div>
+    </div>
+  </div>
+  <div class='container-fluid bg-light p-5' style='height:100%; width:100%'>
+    <div class='row hide text '>
+      <h2 class='text-sage' style='padding-left: 5vh' id='plans'> Plans </h2>
+      <p class='text-sage' style='padding-left: 6.5vh'> With a subscription, you can help support our cause and get a discount on our products. </p>
+    </div>
+    <div class='row hide text' style='padding-left: 5vh; padding-top:10vh;'>
+      <div class='col-md-4'>
+        <div class="card" style="width: 100%">
+          <img class="card-img-top" src="https://gardenerspath.com/wp-content/uploads/2020/07/Sage-Leaves.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Plan 1</h4>
+            <p class="card-text">Description</p>
+            <button href="#" class="bg-charcoal text-button">See Profile</button>
+          </div>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class="card" style="width: 100%">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr4424IjAzx2S3XTFjDJnyYrtTRisfXJrMyn1hRzwu5l-pWEPXTwhr6Ca5P61DuV2H8r0&usqp=CAU" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Plan 2</h4>
+            <p class="card-text">Description</p>
+            <button href="#" class="bg-charcoal text-button">See Profile</button>
+          </div>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class="card" style="width: 100%">
+          <img class="card-img-top" src="https://c1.wallpaperflare.com/preview/39/599/614/sage-green-garden-nature-summer-harvest.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Plan 3</h4>
+            <p class="card-text">Description</p>
+            <button href="#" class="bg-charcoal text-button">See Profile</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

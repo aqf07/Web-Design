@@ -6,6 +6,10 @@
   background-color: #858A70;
 }
 
+.text-sage {
+  color: #9CAF88;
+}
+
 button {
   border: 0px;
   font-size: 3vh;
@@ -13,23 +17,41 @@ button {
   font-weight: bold;
 }
 
+
 li {
   font-size: 2.5vh;
   font-family: "Arial", fantansy;
 }
 
-button:hover {
+.text-button {
+  color: white;
+  transition: 0.2s;
+}
+
+.text-button:hover {
+  color: #ECF0DC;
+}
+
+.text-button:focus {
+  color: #ECF0DC;
+}
+
+.button-dark {
+  transition: 0.2s;
+}
+
+.button-dark:hover {
   background-color: #919876;
 }
 
 h1 {
-  font-size: 19vh;
+  font-size: 18vh;
   text-align: left;
   font-family: "Monaco", fantasy;
 }
 
 h2 {
-  font-size: 15vh;
+  font-size: 16vh;
   text-align: left;
   font-family: "Monaco", fantasy;
 }
