@@ -16,7 +16,7 @@ mark {
 
 button {
   border: 0px;
-  font-size: 3vh;
+  font-size: 2vw;
   font-family: "Arial", fantasy;
   font-weight: bold;
 }
@@ -49,26 +49,26 @@ li {
 }
 
 h1 {
-  font-size: 18vh;
+  font-size: 10vw;
   text-align: left;
   font-family: "Monaco", fantasy;
 }
 
 h2 {
-  font-size: 16vh;
+  font-size: 10vw;
   text-align: left;
   font-family: "Monaco", fantasy;
 }
 
 h4 {
-  font-size: 5vh;
+  font-size: 4vw;
   text-align: left;
   font-family: "Arial", fantasy;
 }
 
 p {
   font-family: "Arial", fantasy;
-  font-size: 3vh;
+  font-size: 2vw;
 }
 
 .dropdown-item:hover {
